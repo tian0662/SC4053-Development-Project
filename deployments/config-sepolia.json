@@ -1,0 +1,54 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "deployedAt": "2025-11-08T20:24:38.250Z",
+  "deployer": "0x62d1a77bD9f0553C93f5b307d03c0506b0F36eF7",
+  "dex": {
+    "address": "0x9B079e37bC68BB12f27Ca15B2050558568c249B8",
+    "deploymentTx": "0x8c3459c528386dd194d79b67043f6930c3328eba334410aafb087f1cb7eea838",
+    "blockNumber": null
+  },
+  "eip712": {
+    "name": "DEX",
+    "version": "1",
+    "chainId": 11155111,
+    "verifyingContract": "0x9B079e37bC68BB12f27Ca15B2050558568c249B8"
+  },
+  "tokens": {
+    "TYD": {
+      "address": "0x582d5Dc029107edCbeCd70276327B72767D5F399",
+      "name": "Test Yuan Dollar",
+      "symbol": "TYD",
+      "initialSupply": 1000000,
+      "decimals": 18
+    },
+    "USDT": {
+      "address": "0xEeBeAbeb851cDa11D00a0f13193f9769fc817E83",
+      "name": "Test USD Tether",
+      "symbol": "USDT",
+      "initialSupply": 10000000,
+      "decimals": 18
+    },
+    "DAI": {
+      "address": "0x8d4c536f3a7c7D6fd95C9CE04a68aabb9bB76fc0",
+      "name": "Test DAI",
+      "symbol": "DAI",
+      "initialSupply": 5000000,
+      "decimals": 18
+    },
+    "WBTC": {
+      "address": "0x725154d746De2c0DE9a3C6787cF1782cF0c2c685",
+      "name": "Test Wrapped BTC",
+      "symbol": "WBTC",
+      "initialSupply": 21000,
+      "decimals": 18
+    },
+    "WETH": {
+      "address": "0xe5AE8FA52063ABa139f4e2D46a8f0172cc29A16f",
+      "name": "Test Ethereum",
+      "symbol": "WETH",
+      "initialSupply": 1000000,
+      "decimals": 18
+    }
+  }
+}

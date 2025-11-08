@@ -1,0 +1,36 @@
+{
+  "name": "dex-offchain-orderbook",
+  "version": "1.0.0",
+  "description": "Decentralized Exchange with Off-Chain Order Book",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:local": "hardhat run scripts/deploy-tokens.js --network localhost && hardhat run scripts/deploy-dex.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy-tokens.js --network sepolia && hardhat run scripts/deploy-dex.js --network sepolia",
+    "node": "hardhat node",
+    "clean": "hardhat clean",
+    "coverage": "hardhat coverage"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "dex",
+    "defi",
+    "smart-contracts",
+    "orderbook"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.10.0",
+    "express": "^4.18.2"
+  }
+}
